@@ -1,0 +1,23 @@
+// @import 'colors';
+// @import 'typography';
+.inner-page-header {
+    .secondary-heading {
+        margin-top: 30px;
+    }
+}
+
+#list-avis {
+    padding-top: 100px;
+    .line {
+        background: $primary;
+        margin-top: 30px;
+    }
+}
+
+.list-clients {
+    margin-bottom: 70px;
+}
+
+#avis {
+    padding-bottom: 150px;
+}

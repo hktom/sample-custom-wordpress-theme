@@ -1,0 +1,102 @@
+// @import 'colors';
+.sidebar-show {
+    opacity: 1 !important;
+    z-index: 9999 !important;
+}
+
+#sidebar-menu {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.2);
+    .wide-section {
+        #sidebar-overlay {
+            opacity: 1;
+        }
+    }
+    .navbar-nav {
+        padding-left: 30px;
+        min-width: 300px;
+        .active {
+            a.nav-link {
+                color: $primary !important;
+            }
+        }
+        .aside-btn {
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+    p.sidebar-agence-description {
+        margin-top: 30%;
+        font-size: 0.8rem;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    a.nav-link {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1rem;
+        color: $black !important;
+        &:hover {
+            color: $primary !important;
+        }
+    }
+    .container-fluid {
+        height: 100%;
+        .row {
+            height: 100%;
+        }
+    }
+    .menu-items {
+        height: 100%;
+        background-color: white;
+        text-align: right;
+        padding: 60px 60px 60px 60px;
+        float: right;
+        //width: 30%;
+    }
+    //padding-top: 60px;
+    .btn-close {
+        display: inline-block;
+        margin: 20px 0px 20px;
+        img {
+            width: 20px;
+        }
+    }
+    .social-icons {
+        font-size: 18px;
+        div {
+            padding: 0px 0px 0px 40px;
+        }
+        .iconify {
+            color: $black;
+        }
+    }
+    &.bg-black {
+        .menu-items {
+            background-color: $black !important;
+            a.nav-link {
+                color: $white !important;
+                &:hover {
+                    color: $primary !important;
+                }
+            }
+            p.sidebar-agence-description {
+                color: $white !important;
+            }
+            .social-icons {
+                .iconify {
+                    color: $white !important;
+                }
+            }
+        }
+    }
+}

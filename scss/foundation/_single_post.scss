@@ -1,0 +1,22 @@
+// @mixin lora() {
+//     font-family: 'Lora', serif !important;
+// }
+
+.article-content {
+    padding: 50px 0;
+    img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+}
+
+.img-legend, figcaption{
+    @include roboto;
+    font-size:  0.9rem !important;
+    color: gray !important;
+    text-align: left !important;
+    font-style: italic !important;
+}

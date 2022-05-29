@@ -1,0 +1,94 @@
+// @import 'colors';
+// @import 'typography';
+#case-study-single {
+    padding: 10px 0 !important;
+    position: relative;
+    .container {
+        position: relative;
+        #client-section {
+            top: -217px;
+            .quote {
+                margin: 40px 0px;
+                text-align: left;
+                @include lora();
+                p {
+                    @include lora();
+                }
+            }
+            .testimony{
+                p{
+                 @include lora();   
+                }
+            }
+            .tandem-btn-secondary {
+                color: $black;
+                background-color: $secondary;
+            }
+            img {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+            .name-client {
+                text-align: left;
+                margin-bottom: 40px;
+            }
+            // .name {
+            //     font-size: 0.875rem;
+            //     margin-bottom: 50px;
+            // }
+            .btn {
+                display: block;
+                margin-bottom: 20px;
+                width: 100%;
+                background: $secondary;
+                color: $black;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+#next-case-study {
+    padding: 150px 0px;
+    .container {
+        background: $secondary;
+        padding: 50px 50px;
+        border-radius: 10px;
+        .next {
+            color: #000;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        .link {
+            margin-top: 0px;
+        }
+        p {
+            margin: 10px 0;
+        }
+    }
+}
+
+#next-case-study-first {
+    padding-bottom: 150px;
+    margin-top: -5rem;
+    .container {
+        background: $secondary;
+        padding: 50px 50px;
+        border-radius: 10px;
+        .next {
+            color: #000;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        .link {
+            margin-top: 0px;
+        }
+        p {
+            margin: 10px 0;
+        }
+    }
+}

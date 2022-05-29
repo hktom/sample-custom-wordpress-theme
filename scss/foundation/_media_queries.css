@@ -1,0 +1,280 @@
+@media only screen and (max-width: 1199px) {
+  .card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .casestudy-post {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  #speeches-caroussel-home {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog-slider-responsive {
+    display: none !important;
+  }
+  #home-leading .overlay {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  div#sidebar-savoir-plus {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  footer .social-icons {
+    justify-content: center !important;
+  }
+  #home-baniere .header {
+    padding-top: 3% !important;
+  }
+  .arrow-right {
+    left: 93% !important;
+  }
+  .post img {
+    height: 450px;
+  }
+  .post.card-img img {
+    height: 350px;
+    width: 100%;
+  }
+  #casestudy {
+    padding-top: 0 !important;
+  }
+  #casestudy .p-5 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  #case-study-single .container #client-section {
+    top: 5rem !important;
+  }
+  .inner-page-header {
+    padding-top: 15%;
+  }
+  .inner-page-header .breadcrumb {
+    padding-left: 0px;
+  }
+  .inner-page-header .inner-page-container {
+    padding: 0 20px;
+  }
+  #home-baniere {
+    text-align: center;
+    padding: 100px 0px 385px 0px;
+  }
+  #home-baniere h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+  #home-baniere .illustration img {
+    float: none;
+    bottom: 0 !important;
+    margin-top: 50vh;
+  }
+  .blog-slider {
+    display: none !important;
+  }
+  #home-leading {
+    text-align: center !important;
+  }
+  #home-leading .content {
+    margin-top: 0;
+  }
+  #home-leading .container .img-overlay {
+    display: block;
+    width: 100%;
+    height: 314px;
+    position: absolute;
+    top: -261px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  #home-newsletter {
+    text-align: center !important;
+  }
+  #home-newsletter .content {
+    margin-top: 0;
+  }
+  #home-newsletter .container .img-overlay {
+    display: block;
+    width: 520px;
+    height: 495px;
+    position: absolute;
+    top: -261px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 107px;
+  }
+  #featured-post .article,
+  #featured-post .main-post {
+    margin-bottom: 50px;
+  }
+  #featured-post .article img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tandem-sidebar .spacer {
+    padding: 5%;
+  }
+  #home-content {
+    padding: 50% 0;
+  }
+  #home-ce-que-fait-tandem {
+    padding: 30% 0;
+  }
+  .propostion-list img {
+    margin-top: 10px !important;
+    margin-right: 30px !important;
+  }
+  #inner_page_footer {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tandem-badge-white {
+    min-height: 80px;
+    font-size: 0.87rem !important;
+  }
+  #inner-proposition-page-footer .text-center {
+    font-size: 0.9rem !important;
+  }
+  .arrow-down {
+    top: 170px !important;
+  }
+  .arrow-down-long {
+    top: 93px !important;
+  }
+  #office-image img {
+    width: 100%;
+    height: 300px;
+  }
+  #home-leading {
+    text-align: center !important;
+  }
+  #home-leading .content {
+    margin-top: 0;
+  }
+  #home-leading .container .img-overlay {
+    display: block;
+    position: absolute;
+    top: -261px;
+    background-repeat: no-repeat;
+  }
+  #home-newsletter {
+    text-align: center !important;
+  }
+  #home-newsletter .content {
+    margin-top: 0;
+  }
+  #home-newsletter .container .img-overlay {
+    display: block;
+    width: 422px;
+    height: 495px;
+    position: absolute;
+    top: -261px;
+    background-repeat: no-repeat;
+    left: 65px;
+  }
+  .card-group {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  #propositions .propostion-list {
+    margin-bottom: 75px;
+  }
+  .arrow-down {
+    font-size: 2rem !important;
+  }
+  .arrow-down-long {
+    font-size: 2rem !important;
+  }
+  .arrow-right {
+    font-size: 2rem !important;
+    left: 93% !important;
+    top: 25% !important;
+  }
+  .tandem-badge {
+    width: 100%;
+    text-align: center;
+  }
+  #home-leading {
+    text-align: center !important;
+  }
+  #home-leading .content {
+    margin-top: 0;
+  }
+  #home-leading .container .img-overlay {
+    display: block;
+    position: absolute;
+    top: -261px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #home-newsletter {
+    text-align: center !important;
+  }
+  #home-newsletter .content {
+    margin-top: 0;
+  }
+  #home-newsletter .container .img-overlay {
+    display: block;
+    width: 270px;
+    height: 495px;
+    position: absolute;
+    top: -261px;
+    left: 15%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .arrow-right {
+    font-size: 2rem !important;
+  }
+  .header-newsroom-mobile {
+    margin: auto;
+    padding-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 392px) {
+  .arrow-down {
+    font-size: 2rem !important;
+    top: 175px !important;
+  }
+  .arrow-down-long {
+    font-size: 2rem !important;
+    top: 103px !important;
+  }
+  .arrow-right {
+    font-size: 2rem !important;
+    top: 22px !important;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .arrow-down {
+    font-size: 2rem !important;
+    top: 210px !important;
+  }
+  .arrow-down-long {
+    font-size: 2rem !important;
+    top: 103px !important;
+  }
+  .arrow-right {
+    font-size: 2rem !important;
+    top: 22px !important;
+  }
+}

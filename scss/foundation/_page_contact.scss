@@ -1,0 +1,40 @@
+#page-contact {
+  a{
+    &:hover{
+        text-decoration: none !important;
+    }
+    color: $black !important
+}
+  .wpcf7 {
+    margin-top: 40px;
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      margin: 10px 0;
+      outline: 0;
+      border-width: 0 0 1px;
+      background: none;
+      width: 100% !important;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    ::placeholder {
+      @include roboto();
+      font-size: 1rem;
+      color: $black;
+      opacity: 0.8;
+    }
+
+    input[type="submit"]{
+      background: $black;
+      color: $white;
+      border: 1px solid #DCE0E5;
+      border-radius: 4px;
+      padding: 5px 20px;
+    }
+  }
+}

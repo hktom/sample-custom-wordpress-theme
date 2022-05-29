@@ -1,0 +1,17 @@
+@import 'foundation/colors';
+@import 'foundation/typography';
+#inner_page_footer {
+    .input-group {
+        margin-bottom: 45px!important;
+    }
+    background: $secondary;
+    padding: 129px 0;
+    input[type="text"] {
+        height: 50px;
+    }
+    button {
+        border-left: none;
+        border-color: #ddd;
+        color: $black;
+    }
+}

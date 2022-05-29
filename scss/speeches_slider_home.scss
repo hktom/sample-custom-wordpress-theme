@@ -1,0 +1,134 @@
+@import "foundation/colors";
+
+.speeches-caroussel-home, .speeches-caroussel-home-mobile{
+  .speeches-caroussel-cell {
+    width: 497px;
+    .speeches {
+      column-gap: 20px;
+    }
+
+    .card {
+      background-color: transparent !important;
+      border: none !important;
+
+      .speeches-img {
+        img {
+          // width: 100%;
+          // height: 100%;
+          width: 165px;
+          border-radius: 5px;
+          height: 230px;
+          object-fit: cover;
+        }
+      }
+
+      a.link {
+        color: $primary;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .flickity-page-dots {
+    text-align: left;
+    display: none !important;
+  }
+
+  .speeches-slide-item {
+    width: 25%;
+    padding: 0 20px;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    &:nth-child(odd) {
+      margin-top: 60px;
+    }
+
+    img {
+      height: 232px;
+      max-width: 180px;
+      border-radius: 5px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+#carrousel-navigator {
+  column-gap: 30px;
+
+  a.carrousel-navigator {
+    color: $black;
+    text-decoration: none;
+    font-size: 3rem !important;
+    transition: 0.5s;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a.carrousel-navigator-left {
+    &:hover {
+      margin-left: -10px;
+      margin-right: 10px;
+    }
+  }
+
+  a.carrousel-navigator-right {
+    &:hover {
+      margin-left: 10px;
+      margin-right: -10px;
+    }
+  }
+}
+
+#speeches-caroussel-home.blog-slides {
+  .speeches-caroussel .flickity-page-dots {
+    display: none;
+  }
+  .flickity-button {
+    background: transparent;
+  }
+  .flickity-button-icon {
+    fill: $primary;
+  }
+  .flickity-prev-next-button.previous {
+    left: -50px;
+  }
+
+  .flickity-prev-next-button.next {
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 972px) {
+  .speeches-caroussel-home, .speeches-caroussel-home-mobile {
+    .speeches-slide-item {
+       width: 100%;
+      img{
+         width: 100%;
+         max-width: 100%;
+      }
+    }
+  }
+
+  .speeches-caroussel-home{
+    .flickity-viewport{
+      // height: 400px !important;
+    }
+  }
+
+  .speeches-slide-item {
+    &:nth-child(odd) {
+      margin-top: 0px !important;
+    }
+  }
+}

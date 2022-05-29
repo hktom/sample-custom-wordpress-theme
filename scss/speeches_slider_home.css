@@ -1,0 +1,100 @@
+.speeches-caroussel-home .speeches-caroussel-cell, .speeches-caroussel-home-mobile .speeches-caroussel-cell {
+  width: 497px;
+}
+.speeches-caroussel-home .speeches-caroussel-cell .speeches, .speeches-caroussel-home-mobile .speeches-caroussel-cell .speeches {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.speeches-caroussel-home .speeches-caroussel-cell .card, .speeches-caroussel-home-mobile .speeches-caroussel-cell .card {
+  background-color: transparent !important;
+  border: none !important;
+}
+.speeches-caroussel-home .speeches-caroussel-cell .card .speeches-img img, .speeches-caroussel-home-mobile .speeches-caroussel-cell .card .speeches-img img {
+  width: 165px;
+  border-radius: 5px;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.speeches-caroussel-home .speeches-caroussel-cell .card a.link, .speeches-caroussel-home-mobile .speeches-caroussel-cell .card a.link {
+  color: #E50E33;
+  text-decoration: none;
+}
+.speeches-caroussel-home .speeches-caroussel-cell .card a.link:hover, .speeches-caroussel-home-mobile .speeches-caroussel-cell .card a.link:hover {
+  text-decoration: none;
+}
+.speeches-caroussel-home .flickity-page-dots, .speeches-caroussel-home-mobile .flickity-page-dots {
+  text-align: left;
+  display: none !important;
+}
+.speeches-caroussel-home .speeches-slide-item, .speeches-caroussel-home-mobile .speeches-slide-item {
+  width: 25%;
+  padding: 0 20px;
+}
+.speeches-caroussel-home .speeches-slide-item a, .speeches-caroussel-home-mobile .speeches-slide-item a {
+  color: inherit;
+  text-decoration: none;
+}
+.speeches-caroussel-home .speeches-slide-item:nth-child(odd), .speeches-caroussel-home-mobile .speeches-slide-item:nth-child(odd) {
+  margin-top: 60px;
+}
+.speeches-caroussel-home .speeches-slide-item img, .speeches-caroussel-home-mobile .speeches-slide-item img {
+  height: 232px;
+  max-width: 180px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#carrousel-navigator {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#carrousel-navigator a.carrousel-navigator {
+  color: #000;
+  text-decoration: none;
+  font-size: 3rem !important;
+  transition: 0.5s;
+}
+#carrousel-navigator a.carrousel-navigator:hover {
+  text-decoration: none;
+}
+#carrousel-navigator a.carrousel-navigator-left:hover {
+  margin-left: -10px;
+  margin-right: 10px;
+}
+#carrousel-navigator a.carrousel-navigator-right:hover {
+  margin-left: 10px;
+  margin-right: -10px;
+}
+
+#speeches-caroussel-home.blog-slides .speeches-caroussel .flickity-page-dots {
+  display: none;
+}
+#speeches-caroussel-home.blog-slides .flickity-button {
+  background: transparent;
+}
+#speeches-caroussel-home.blog-slides .flickity-button-icon {
+  fill: #E50E33;
+}
+#speeches-caroussel-home.blog-slides .flickity-prev-next-button.previous {
+  left: -50px;
+}
+#speeches-caroussel-home.blog-slides .flickity-prev-next-button.next {
+  right: -50px;
+}
+
+@media screen and (max-width: 972px) {
+  .speeches-caroussel-home .speeches-slide-item, .speeches-caroussel-home-mobile .speeches-slide-item {
+    width: 100%;
+  }
+  .speeches-caroussel-home .speeches-slide-item img, .speeches-caroussel-home-mobile .speeches-slide-item img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .speeches-slide-item:nth-child(odd) {
+    margin-top: 0px !important;
+  }
+}/*# sourceMappingURL=speeches_slider_home.css.map */

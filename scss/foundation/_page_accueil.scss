@@ -1,0 +1,281 @@
+// @import 'colors';
+// @import 'typography';
+#home-baniere {
+    position: relative;
+    background: $secondary;
+    padding: 180px 0px 245px 0px;
+    strong {
+        color: $primary;
+        font-weight: normal;
+    }
+    // .img-overlay {
+    //     width: 565px;
+    //     height: 495px;
+    //     position: absolute;
+    //     right: 0px;
+    //     top: 200px;
+    //     background-repeat: no-repeat;
+    //     background-size: contain;
+    //     background-position: center;
+    // }
+    // .illustration {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     height: 0%;
+    //     width: 100%;
+    //     background-color: transparent;
+    //     opacity: 0.8;
+    //     z-index: 1;
+    //     img {
+    //         float: right;
+    //         bottom: 0 !important;
+    //         margin-top: 320px;
+    //     }
+    // }
+}
+
+#home-content {
+    padding: 250px 0px 200px 0px;
+    // padding-top: 150px;
+    // padding-bottom: 15%;
+    .line {
+        margin-bottom: 40px;
+    }
+    p {
+        margin-bottom: 30px;
+    }
+}
+
+#home-call-to-action {
+    //background: $black;
+    position: relative;
+    color: #fff;
+    padding: 150px 0;
+    .line {
+        background: $white;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $black;
+        opacity: 0.5;
+        z-index: 1;
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        object-fit: cover;
+        left: 0;
+    }
+    .img-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        z-index: 0;
+        //-webkit-filter: grayscale(100%);
+        /* Safari 6.0 - 9.0 */
+        //filter: grayscale(100%);
+    }
+}
+
+#home-brand {
+    padding: 150px 0px 50px 0px;
+    .strategie {
+        img {
+            max-width: 32px;
+            object-fit: contain;
+            margin-right: 22px;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 15px 0px 0px 0px !important;
+            
+        }
+        a {
+            font-weight: bold;
+            color: $primary;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 70px !important;
+        }
+    }
+    .liste_strategies {
+        margin-top: 100px;
+    }
+}
+
+#home-leading {
+    padding: 150px 0;
+    background: $secondary;
+    position: relative;
+    img {
+        width: 100%;
+    }
+    .container {
+        position: relative;
+        .img-overlay {
+            display: none;
+            width: 765px;
+            height: 495px;
+            position: absolute;
+            right: 0px;
+            top: 180px;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+#home-ce-que-fait-tandem {
+    padding: 200px 0px 300px 0px;
+    .list-point-point {
+        .list-point-point-items {
+            margin: 40px 0;
+        }
+        .list-point-order {
+            font-size: 3.25rem;
+            padding-right: 30px;
+            @include lora();
+            font-weight: 400;
+            margin-top: 15px;
+        }
+        .list-point-content {
+            font-size: 1rem;
+            line-height: 2rem;
+        }
+    }
+}
+
+#leading-v2 {
+    background: $secondary;
+    padding-bottom: 130px;
+    position: relative;
+    .img-encart {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0%;
+        width: 100%;
+        opacity: 1;
+        z-index: 1;
+        margin-top: -10%;
+        img {
+            // margin-top: -170px;
+            max-width: 100%;
+            margin: auto;
+        }
+    }
+    .encart {
+        padding-top: 200px;
+        .container {
+            position: relative;
+            // .img-overlay {
+            //     width: 733px;
+            //     height: 476px;
+            //     position: absolute;
+            //     background-repeat: no-repeat;
+            //     top: -400px;
+            //     left: 185px;
+            //     max-width: 100%;
+            //     background-size: contain;
+            // }
+        }
+    }
+    .encart-title {
+        margin-top: 50px;
+    }
+}
+
+#home-blog {
+    min-height: 90% !important;
+    h2 {
+        margin-bottom: 100px;
+    }
+    .card {
+        border: none;
+        .card-title {
+            a {
+                color: $black;
+                font-weight: 100;
+            }
+        }
+        .card-favicon {
+            width: 18px;
+            margin: 20px 0;
+        }
+        .card-img {
+            img {
+                width: 100%;
+                height: 65vh;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+        a {
+            color: $primary;
+            font-weight: bold;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .blog-slider {
+        .blog-slider-item {
+            padding: 0 30px !important;
+            width: 24rem !important;
+            // margin: 0px 40px 0px 40px !important;
+            //height: 100vh !important;
+            .is-not-even {
+                margin-top: 10rem;
+            }
+        }
+    }
+    .btn {
+        margin-top: 100px;
+    }
+}
+
+#home-newsletter {
+    padding: 180px 0;
+    background: $secondary;
+    input[type="text"] {
+        height: 50px;
+    }
+    button {
+        border-left: none;
+        border-color: #ddd;
+        color: $black;
+    }
+    img {
+        width: 100%;
+    }
+    .container {
+        position: relative;
+        .img-overlay {
+            display: none;
+            width: 765px;
+            height: 495px;
+            position: absolute;
+            right: 0px;
+            top: 180px;
+            background-repeat: no-repeat;
+        }
+    }
+}

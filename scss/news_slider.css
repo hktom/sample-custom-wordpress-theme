@@ -1,0 +1,123 @@
+.main-carousel {
+  margin: auto;
+}
+.main-carousel .carousel-cell {
+  width: 348px;
+  margin-right: 28px;
+}
+.main-carousel .carousel-cell .card-img-top img {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.main-carousel .carousel-cell .card-favicon {
+  width: 16px;
+}
+.main-carousel .carousel-cell .is-not-even {
+  margin-top: 180px !important;
+}
+.main-carousel .carousel-cell .is-even {
+  margin-top: 40px !important;
+}
+.main-carousel .carousel-cell .is-large {
+  margin-top: 80px !important;
+  width: 424px !important;
+}
+.main-carousel .carousel-cell .is-large .card-img-top img {
+  height: 220px !important;
+}
+.main-carousel .carousel-cell .is-large-first {
+  margin-top: 0px !important;
+}
+.main-carousel .carousel-cell .card-text p {
+  line-height: 1.63rem !important;
+}
+
+.speeches-caroussel-home {
+  margin: auto;
+}
+.speeches-caroussel-home .carousel-cell {
+  width: 348px;
+  margin-right: 28px;
+}
+.speeches-caroussel-home .carousel-cell .card-img-top img {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.speeches-caroussel-home .carousel-cell .card-favicon {
+  width: 16px;
+}
+.speeches-caroussel-home .carousel-cell .is-not-even {
+  margin-top: 180px !important;
+}
+.speeches-caroussel-home .carousel-cell .is-even {
+  margin-top: 40px !important;
+}
+.speeches-caroussel-home .carousel-cell .is-large {
+  margin-top: 80px !important;
+  width: 424px !important;
+}
+.speeches-caroussel-home .carousel-cell .is-large .card-img-top img {
+  height: 220px !important;
+}
+.speeches-caroussel-home .carousel-cell .is-large-first {
+  margin-top: 0px !important;
+}
+.speeches-caroussel-home .carousel-cell .card-text p {
+  line-height: 1.63rem !important;
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  margin-top: 40px;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+/* white circles */
+.flickity-page-dots .dot {
+  width: 15px;
+  height: 15px;
+  background-color: #E50E33;
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  transform-origin: center;
+  transform: scale(0.6);
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  transform: scale(1);
+  opacity: 1;
+}
+
+@media (min-width: 1200px) {
+  .main-carousel {
+    max-width: 2000px;
+  }
+}
+@media (max-width: 998px) {
+  .speeches-caroussel-home .carousel-cell {
+    width: 100%;
+    max-width: 100%;
+  }
+  .speeches-caroussel-home .carousel-cell .is-not-even {
+    margin-top: 0px !important;
+  }
+  .speeches-caroussel-home .carousel-cell .is-even {
+    margin-top: 0px !important;
+  }
+
+  .card-body {
+    padding: 0rem;
+  }
+}/*# sourceMappingURL=news_slider.css.map */

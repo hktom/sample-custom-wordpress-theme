@@ -1,0 +1,203 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6,
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+  font-family: "Lora", serif !important;
+  font-weight: 400 !important;
+}
+
+h1,
+h1 p,
+.t1 {
+  font-size: 3.25rem;
+  line-height: 4.5rem;
+}
+
+h2,
+h2 p,
+.t2 {
+  font-size: 2.625rem;
+  line-height: 3.875rem;
+}
+
+h3,
+h3 p,
+.t3 {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+}
+
+h4,
+h4 p,
+.t4,
+.card-title {
+  font-size: 1.625rem;
+  line-height: 2.625rem;
+}
+
+h5,
+h5 p,
+.t5 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+h6,
+h6 p,
+.t6 {
+  font-size: 0.75rem;
+  line-height: 1.625rem;
+}
+
+.tandem-heading {
+  font-size: 2rem;
+  line-height: 3.25rem;
+}
+
+.tandem-subheading {
+  font-size: 1.375rem;
+  line-height: 2.25rem;
+}
+
+p,
+div,
+ol,
+ul {
+  font-family: "roboto", sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.813rem;
+}
+
+.post .card-title {
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+#featured-post .card p,
+.card-text {
+  font-size: 0.875rem !important;
+  line-height: 1.63rem !important;
+  margin-top: 0.61rem;
+  margin-bottom: 0px;
+}
+
+.card .card-text p {
+  margin-top: 0.61rem;
+  margin-bottom: 0px;
+  line-height: 1.63rem !important;
+  display: inline-block;
+}
+
+.speeches-caroussel-cell .card-title {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+.speeches-caroussel-cell .card-title a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.speeches-caroussel-cell .card-title a:hover {
+  text-decoration: none;
+}
+.speeches-caroussel-cell .card-text p {
+  font-size: 0.875rem !important;
+  line-height: 1.63rem !important;
+}
+
+.speeches-slide-item .card-text p {
+  font-size: 0.875rem !important;
+  line-height: 1.63rem !important;
+}
+
+.blog-section-title {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.tandem-sidebar h4 {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-style: italic;
+}
+.tandem-sidebar h5 {
+  font-size: 1.4375rem;
+  line-height: 2.3125rem;
+}
+.tandem-sidebar p {
+  margin-top: 10px;
+  font-size: 0.6875rem;
+  line-height: 1.125rem;
+}
+.tandem-sidebar .mission-post h4 {
+  font-style: normal;
+}
+
+#actualite h2 {
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+}
+
+@media only screen and (max-width: 992px) {
+  h1,
+#featured-post .col-lg-5 .post .card .card-title {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+
+  h2,
+.t2,
+.tandem-heading,
+.speeches-body .card-title {
+    font-size: 1.5rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+    line-height: 2.25rem;
+  }
+
+  p,
+.tandem-subheading {
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+  }
+
+  h4,
+.t4,
+p.t4,
+.inner-page-header h2 {
+    font-size: 1.25rem !important;
+    line-height: 2rem !important;
+  }
+}
+#inner_page_footer {
+  background: #F2F4F7;
+  padding: 129px 0;
+}
+#inner_page_footer .input-group {
+  margin-bottom: 45px !important;
+}
+#inner_page_footer input[type=text] {
+  height: 50px;
+}
+#inner_page_footer button {
+  border-left: none;
+  border-color: #ddd;
+  color: #000;
+}/*# sourceMappingURL=footer.css.map */
